@@ -1,17 +1,17 @@
 spring:
   profiles:
     active:
-    - dev
+      - dev
 
- ---
- spring:
-   profiles: dev
-   application:
-     name: lucifer-config-dev
- 
+---
+spring:
+  profiles: dev
+    application:
+      name: lucifer-config-dev
 
- ---
- spring:
-   profiles: test
-   application:
-     name: lucifer-config-test
+
+---
+spring:
+  profiles: test
+    application:
+      name: lucifer-config-test
