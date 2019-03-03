@@ -6,12 +6,12 @@ spring:
 ---
 spring:
   profiles: dev
-    application:
-      name: lucifer-config-dev
+  application:
+    name: lucifer-config-dev
 
 
 ---
 spring:
   profiles: test
-    application:
-      name: lucifer-config-test
+  application:
+    name: lucifer-config-test
